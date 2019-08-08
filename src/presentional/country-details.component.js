@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CountryDetails = (props) => (
-    <div className={country-wrapper}>
+    <div className={'country-wrapper'}>
         <header>
             <img className={'country-photo'} src={props.country.imageUrl} alt={'country photo'}/>
         </header>
@@ -11,15 +11,15 @@ const CountryDetails = (props) => (
             <div className={'info'}>
                 <div>
                     <span>{props.country.populace}</span>
-                    <span>The population [million]</span>
+                    <span> The population [million]</span>
                 </div>
                 <div>
                     <span>{props.country.capital}</span>
-                    <span>Capital city</span>
+                    <span> Capital city</span>
                 </div>
                 <div>
                     <span>{props.country.currency}</span>
-                    <span>Currency</span>
+                    <span> Currency</span>
                 </div>
             </div>
         </div>
